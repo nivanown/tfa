@@ -1245,6 +1245,7 @@ body {
   position: absolute;
   left: -8px;
   bottom: -118px;
+  pointer-events: none;
   }
 
 /* section-third */
@@ -1715,6 +1716,7 @@ body {
 .mov a { 
   position: relative;
   display: block;
+  height: 100%;
   }
 
 .mov a:after { 
@@ -1932,6 +1934,10 @@ body {
   text-align: center;
   line-height: 22px;
   letter-spacing: 0.1px;
+  }
+
+.hystmodal__wrap { 
+  padding: 30px 15px;
   }
 
 /* hystmodal__window */
