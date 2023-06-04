@@ -860,6 +860,7 @@ body {
 
 /* profit-info__mov */
 .profit-info__mov { 
+  order: 1;
   padding: 23px 0 0;
   }
 
