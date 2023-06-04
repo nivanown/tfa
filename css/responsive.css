@@ -336,6 +336,10 @@
 	padding-top: 50px;
 	}
 
+.section-first_changed { 
+	padding: 37px 0 0;
+	}
+
 .profit-info { 
 	margin: 0 0 100px;
 	}
@@ -346,6 +350,10 @@
 
 .section-second { 
 	padding: 340px 0 100px;
+	}
+
+.section-second_changed { 
+	padding: 330px 0 0;
 	}
 
 .section-second__info .info__img { 
@@ -1511,6 +1519,10 @@ input[type="tel"].input_small-size {
 
 .section-second { 
 	padding: 300px 0 70px;
+	}
+
+.section-second_changed { 
+	padding: 130px 0 0;
 	}
 
 .advantages__item { 
