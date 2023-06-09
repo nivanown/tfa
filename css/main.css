@@ -452,6 +452,10 @@ input[type='tel'].input_small-size {
   text-align: center;
   }
 
+.title-small span { 
+  font-weight: 300;
+  }
+
 /* sub-title */
 .sub-title { 
   margin: 0 0 49px;
@@ -2068,6 +2072,21 @@ body {
 
 .callback-form__small-text { 
   padding: 0 30px;
+  }
+
+.hystmodal ol { 
+  margin: 0 0 30px;
+  padding: 0 0 0 25px;
+  }
+
+.hystmodal ol li { 
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 24px;
+  }
+
+.hystmodal ol li:last-child { 
+  margin: 0;
   }
 
 /* fancybox-button */

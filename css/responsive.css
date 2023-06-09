@@ -1688,6 +1688,11 @@ p {
 	line-height: 22px;
 	}
 
+.hystmodal ol li { 
+	font-size: 14px;
+	line-height: 14px;
+	}
+
 .question__text { 
 	margin: 0 0 20px;
 	}
