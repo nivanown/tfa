@@ -10,6 +10,8 @@
     <meta name="keywords" content="" /> 
     
     <link rel="stylesheet" href="css/main.css" media="all"/>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" media="all"/>
+    <link rel="stylesheet" href="css/fancybox.min.css" media="all"/>
     <link rel="stylesheet" href="css/hystmodal.min.css" media="all"/>
     <link rel="stylesheet" href="css/responsive.css" media="all"/>
 
@@ -87,14 +89,60 @@
                 <div class="section-first__container">
                     <div class="section-first__profit-info profit-info">
                         <div class="profit-info__mov">
-                            <div class="profit-info__mov-poster mov-poster">
-                                <picture>
-                                    <source srcset="img/src/mov-poster.webp" type="image/webp">
-                                    <img src="img/src/mov-poster.jpg" alt="photo">
-                                </picture>
+                            <div class="profit-info__mov-slider mov-slider swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/src/mov-slider-poster-1.webp" type="image/webp">
+                                            <img src="img/src/mov-slider-poster-1.jpg" alt="photo">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/src/mov-slider-poster-2.webp" type="image/webp">
+                                            <img src="img/src/mov-slider-poster-2.jpg" alt="photo">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/src/mov-slider-poster-3.webp" type="image/webp">
+                                            <img src="img/src/mov-slider-poster-4.jpg" alt="photo">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/src/mov-slider-poster-5.webp" type="image/webp">
+                                            <img src="img/src/mov-slider-poster-5.jpg" alt="photo">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/src/mov-slider-poster-6.webp" type="image/webp">
+                                            <img src="img/src/mov-slider-poster-6.jpg" alt="photo">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/src/mov-slider-poster-7.webp" type="image/webp">
+                                            <img src="img/src/mov-slider-poster-7.jpg" alt="photo">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/src/mov-slider-poster-8.webp" type="image/webp">
+                                            <img src="img/src/mov-slider-poster-8.jpg" alt="photo">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/src/mov-slider-poster-9.webp" type="image/webp">
+                                            <img src="img/src/mov-slider-poster-9.jpg" alt="photo">
+                                        </picture>
+                                    </div>
+                                </div>
                             </div>
                             <div class="profit-info__play-panel play-panel">
-                                <a href="#" data-hystmodal="#mov">
+                                <a href="https://www.youtube.com/watch?v=XCb87VJVdr0" data-fancybox="mov1">
                                     <span class="play-panel__play-btn play-btn"></span>
                                     <span class="play-panel__text">Посмотреть приглашение<br> <strong>на Zoom-экскурсию</strong><br> в отдел маркетинга</span>
                                 </a>
@@ -192,7 +240,7 @@
                                 </picture>
                             </div>
                             <div class="excursion-form__excursion-mov excursion-mov">
-                                <a href="#" data-hystmodal="#mov">
+                                <a href="https://www.youtube.com/watch?v=XCb87VJVdr0" data-fancybox="mov2">
                                     <span class="excursion-mov__play-btn play-btn"></span>
                                     <span class="excursion-mov__text">Посмотреть что<br> будет <strong>на Zoom-<br> экскурсии</strong></span>
                                 </a>
@@ -201,7 +249,7 @@
                                 <h2 class="excursion-form__title-small title-small">Запишитесь на бесплатную<br> Zoom-экскурсию в прибыльный<br> отдел маркетинга</h2>
                                 <p class="excursion-form__text">и узнайте, как удвоить оборот вашей<br> компании уже в ближайшие несколько месяцев</p>
                                 <form>
-                                    <input type="tel" name="tel" placeholder="Введите ваш телефон">
+                                    <input type="tel" name="tel" placeholder="Введите ваш телефон" value="+7 (123) 123-21-32">
                                     <button class="excursion-form__btn btn" type="submit">Записаться на бесплатную Zoom-экскурсию<br> в прибыльный отдел маркетинга</button>
                                 </form>
                                 <p class="excursion-form__small-text small-text">Нажимая на кнопку, вы даете согласие на обработку своих персональных<br> данных и соглашаетесь с <a href="#" data-hystmodal="#privacy-policy">Политикой конфиденциальности</a></p>
@@ -357,7 +405,7 @@
                             </div>
                         </div>
                         <div class="results__mov">
-                            <a href="#" data-hystmodal="#mov">
+                            <a href="https://youtu.be/LMw7ntBvl2A" data-fancybox="feedback-mov">
                                 <picture>
                                     <source srcset="img/src/mov-poster-2.webp" type="image/webp">
                                     <img src="img/src/mov-poster-2.jpg" alt="photo">
@@ -458,7 +506,7 @@
                         <div class="director__description">
                             <h3 class="director__title">Среди клиентов: партнер Ростелеком,<br> METRO Cash&Carry, IP-телефония SIPUNI</h3>
                             <p class="director__text">Наши проекты показывают как эталонные<br> в сфере маркетинга</p>
-                            <a href="#" class="director__btn btn btn_transparent-color btn_play-icon btn_line-dec" data-hystmodal="#mov">Посмотреть разбор нашего проекта<br> от Михаила Дашкиева (компания Units)<i></i></a>
+                            <a href="https://www.youtube.com/watch?v=Gy_AhwP-D-s" data-fancybox="analysis-mov" class="director__btn btn btn_transparent-color btn_play-icon btn_line-dec">Посмотреть разбор нашего проекта<br> от Михаила Дашкиева (компания Units)<i></i></a>
                             <div class="director__widget widget">
                                 <div class="widget__content">
                                     <div class="widget__in">
@@ -479,7 +527,7 @@
                                 </picture>
                             </div>
                             <div class="excursion-form__excursion-mov excursion-mov">
-                                <a href="#" data-hystmodal="#mov">
+                                <a href="https://www.youtube.com/watch?v=XCb87VJVdr0" data-fancybox="mov3">
                                     <span class="excursion-mov__play-btn play-btn"></span>
                                     <span class="excursion-mov__text">Посмотреть что<br> будет <strong>на Zoom-<br> экскурсии</strong></span>
                                 </a>
@@ -488,7 +536,7 @@
                                 <h2 class="excursion-form__title-small title-small">Запишитесь на бесплатную<br> Zoom-экскурсию в прибыльный<br> отдел маркетинга</h2>
                                 <p class="excursion-form__text">и узнайте, как удвоить оборот вашей<br> компании уже в ближайшие несколько месяцев</p>
                                 <form>
-                                    <input type="tel" name="tel" placeholder="Введите ваш телефон">
+                                    <input type="tel" name="tel" placeholder="Введите ваш телефон" value="+7 (123) 123-21-32">
                                     <button class="excursion-form__btn btn" type="submit">Записаться на бесплатную Zoom-экскурсию<br> в прибыльный отдел маркетинга</button>
                                 </form>
                                 <p class="excursion-form__small-text small-text">Нажимая на кнопку, вы даете согласие на обработку своих персональных<br> данных и соглашаетесь с <a href="#" data-hystmodal="#privacy-policy">Политикой конфиденциальности</a></p>
@@ -546,7 +594,7 @@
                                 </picture>
                             </div>
                             <div class="excursion-form__excursion-mov excursion-mov">
-                                <a href="#" data-hystmodal="#mov">
+                                <a href="https://www.youtube.com/watch?v=XCb87VJVdr0" data-fancybox="mov4">
                                     <span class="excursion-mov__play-btn play-btn"></span>
                                     <span class="excursion-mov__text">Посмотреть что<br> будет <strong>на Zoom-<br> экскурсии</strong></span>
                                 </a>
@@ -555,7 +603,7 @@
                                 <h2 class="excursion-form__title-small title-small">Запишитесь на бесплатную<br> Zoom-экскурсию в прибыльный<br> отдел маркетинга</h2>
                                 <p class="excursion-form__text">и узнайте, как удвоить оборот вашей<br> компании уже в ближайшие несколько месяцев</p>
                                 <form>
-                                    <input type="tel" name="tel" placeholder="Введите ваш телефон">
+                                    <input type="tel" name="tel" placeholder="Введите ваш телефон" value="+7 (123) 123-21-32">
                                     <button class="excursion-form__btn btn" type="submit">Записаться на бесплатную Zoom-экскурсию<br> в прибыльный отдел маркетинга</button>
                                 </form>
                                 <p class="excursion-form__small-text small-text">Нажимая на кнопку, вы даете согласие на обработку своих персональных<br> данных и соглашаетесь с <a href="#" data-hystmodal="#privacy-policy">Политикой конфиденциальности</a></p>
@@ -580,7 +628,7 @@
                             <p class="callback-form__text">и наш менеджер перезвонит вам в ближайшее время</p>
                             <form>
                                 <fieldset>
-                                    <input class="input_small-size" type="tel" name="tel" placeholder="Введите номер телефона">
+                                    <input class="input_small-size" type="tel" name="tel" placeholder="Введите номер телефона" value="+7 (123) 123-21-32">
                                 </fieldset>
                                 <fieldset>
                                     <button type="submit" class="btn btn_full-size btn_shadow">Оставить заявку</button>
@@ -612,19 +660,6 @@
         </div>
     </div>
     <!-- privacy policy modal end -->
-
-    <!-- mov modal Start -->
-    <div id="mov" class="hystmodal hystmodal_indent-none" aria-hidden="true">
-        <div class="hystmodal__wrap">
-            <div class="hystmodal__window" role="dialog" aria-modal="true">
-                <button class="hystmodal__close" data-hystclose>Закрыть</button>
-                <div class="hystmodal__styled">
-                    <iframe src="https://www.youtube.com/embed/nT14mlv92t4?enablejsapi=1&amp;rel=0&amp;showinfo=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- mov modal end -->
 
     <!-- project-info modal Start -->
     <div id="project-info" class="hystmodal" aria-hidden="true">
@@ -666,6 +701,8 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
 
     <!-- Plugin scripts -->
+    <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/fancybox.min.js"></script>
     <script type="text/javascript" src="js/hystmodal.min.js"></script>
 
     <!-- Scripts -->

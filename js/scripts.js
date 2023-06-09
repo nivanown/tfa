@@ -1,4 +1,15 @@
-﻿/*- phone-input -*/
+﻿/*- mov-slider -*/
+var swiper = new Swiper('.mov-slider', {
+    spaceBetween: 5,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
+});
+
+/*- phone-input -*/
 [].forEach.call(document.querySelectorAll('input[type="tel"]'), function (input) {
     let keyCode;
     function mask(event) {

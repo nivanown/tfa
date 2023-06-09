@@ -16,6 +16,10 @@
 
 @media (max-width: 1350px) { 
 
+.mov-slider { 
+	width: 540px;
+	}
+
 .question { 
 	margin: 0;
 	}
@@ -44,10 +48,6 @@
 
 .telegram-link__text { 
 	font-size: 20px;
-	}
-
-.profit-info__mov-poster { 
-	margin-right: 0;
 	}
 
 .play-panel { 
@@ -102,6 +102,17 @@
 	order: 0;
 	margin: 0 0 50px;
 	padding: 0;
+	}
+
+.mov-slider { 
+	max-width: 700px;
+	width: 100%;
+	height: unset;
+	}
+
+.mov-slider img { 
+	height: unset;
+	object-fit: unset;
 	}
 
 .profit-info__description { 
@@ -360,8 +371,8 @@
 	right: -180px;
 	}
 
-.mov-poster { 
-	height: 350px;
+.mov-slider { 
+	height: unset;
 	}
 
 .results__mov:before { 
@@ -1221,9 +1232,8 @@
 	line-height: 18px;
 	}
 
-.mov-poster { 
+.mov-slider { 
 	margin: 0 0 30px;
-	height: 300px;
 	}
 
 .play-btn { 
@@ -1602,10 +1612,6 @@ input[type="tel"].input_small-size {
 	font-size: 14px;
 	background-size: 16px 16px;
 	background-position: 30px center;
-	}
-
-.mov-poster { 
-	height: 240px;
 	}
 
 .zoom-info dt { 
