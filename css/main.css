@@ -456,6 +456,10 @@ input[type='tel'].input_small-size {
   font-weight: 300;
   }
 
+.title-small a { 
+  color: #292929;
+  }
+
 /* sub-title */
 .sub-title { 
   margin: 0 0 49px;
@@ -864,7 +868,6 @@ body {
 
 /* profit-info__mov */
 .profit-info__mov { 
-  order: 1;
   padding: 23px 0 0;
   }
 
@@ -1348,6 +1351,10 @@ body {
   line-height: 40px;
   }
 
+.results__title a { 
+  color: #292929;
+  }
+
 .results__item p { 
   margin: 0 0 25px;
   font-size: 22px;
@@ -1390,6 +1397,10 @@ body {
   text-align: center;
   line-height: 20px;
   letter-spacing: 0.7px;
+  }
+
+.results__price span a { 
+  color: #fff;
   }
 
 .results__price img { 
