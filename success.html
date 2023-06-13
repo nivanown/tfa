@@ -93,17 +93,11 @@
                             <p>Мы свяжемся с вами по этому номеру:</p>
                         </div>
                         <form>
-                            <input type="tel" name="tel" placeholder="+7" value="+7 (123) 123-21-32">
+                            <input type="tel" name="tel" placeholder="+7">
                             <button class="success-form__btn btn" type="submit">Скорректировать номер</button>
                         </form>
                     </div>
                     <div class="section-first__info info">
-                        <div class="info__img">
-                            <picture>
-                                <source srcset="img/src/info-img.webp" type="image/webp">
-                                <img src="img/src/info-img.jpg" alt="photo">
-                            </picture>
-                        </div>
                         <div class="info__description">
                             <h1 class="info__title">
                                 Мы подготовили для вас<br> 
@@ -111,6 +105,12 @@
                                 стратегия,которая принесла<br>
                                 49 000 000 руб. выручки</span>
                             </h1>
+                            <div class="info__img">
+                                <picture>
+                                    <source srcset="img/src/info-img.webp" type="image/webp">
+                                    <img src="img/src/info-img.jpg" alt="photo">
+                                </picture>
+                            </div>
                             <p class="info__text info__text_line-dec">Получите стратегию в WhatsApp<br> 
                             бесплатно прямо сейчас</p>
                             <a href="https://api.whatsapp.com/send?phone=79996107789&text=Хочу%20получить%20маркетинговую%20стратегию" target="_blank" class="btn">Получите стратегию<br> в WhatsApp бесплатно прямо сейчас</a>
@@ -130,12 +130,6 @@
             <section class="section-second section-second_changed">
                 <div class="section-second__container">
                     <div class="section-second__info info">
-                        <div class="info__img">
-                            <picture>
-                                <source srcset="img/src/info-img-2.webp" type="image/webp">
-                                <img src="img/src/info-img-2.jpg" alt="photo">
-                            </picture>
-                        </div>
                         <div class="info__description">
                             <h1 class="info__title">
                                 Не забудьте<br> 
@@ -144,6 +138,12 @@
                                 которая принесла <img src="img/src/ruble-gray.png" alt="ruble"><br>  
                                 49 000 000 рублей выручки</span>
                             </h1>
+                            <div class="info__img">
+                                <picture>
+                                    <source srcset="img/src/info-img-2.webp" type="image/webp">
+                                    <img src="img/src/info-img-2.jpg" alt="photo">
+                                </picture>
+                            </div>
                             <p class="info__text info__text_line-dec">Получите стратегию в WhatsApp<br> 
                             бесплатно прямо сейчас</p>
                             <a href="https://api.whatsapp.com/send?phone=79996107789&text=Хочу%20получить%20маркетинговую%20стратегию" target="_blank" class="btn">Получите стратегию<br> в WhatsApp бесплатно прямо сейчас</a>
@@ -260,6 +260,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
 
     <!-- Plugin scripts -->
+    <script type="text/javascript" src="js/maskedinput.min.js"></script>
     <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="js/fancybox.min.js"></script>
     <script type="text/javascript" src="js/hystmodal.min.js"></script>
